@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kodigo 404</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main Menu -->
+  <div id="main-menu">
+    <h1>Welcome to Kodigo 404</h1>
+    <button id="new-game-btn">Start New Game</button>
+    <button id="load-game-btn">Load Game</button>
+    <button id="chapter-select-btn">Chapter Selection</button>
+    <button id="settings-btn">Settings</button>
+    <button id="quit-btn">Quit</button>
+  </div>
+
+  <!-- Gameplay -->
+  <div id="gameplay" class="hidden">
+    <div id="story-text"></div>
+    <div id="choices"></div>
+    <div id="controls">
+      <button id="back-btn">Back</button>
+      <button id="save-btn">Save Game</button>
+      <button id="load-btn">Load Game</button>
+      <button id="settings-btn-gameplay">Settings</button>
+      <button id="quit-btn-gameplay">Quit</button>
+    </div>
+  </div>
+
+  <!-- Slot Selection -->
+  <div id="slots-container" class="hidden">
+    <h2 id="slot-title"></h2>
+    <button id="return-btn">Return</button>
+    <button id="main-menu-btn">Main Menu</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
